@@ -8,6 +8,11 @@
              margin: 0;
 }
 
+/* Page-Contents fix */
+#page-content, #page-content > * {
+    max-width: 100%;
+}
+
 /* Edit-Page window fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area div form#edit-page-form table.form tbody tr td{
              word-break: keep-all;

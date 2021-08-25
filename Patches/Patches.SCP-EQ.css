@@ -1,0 +1,49 @@
+/* Patches for SCP Foundation Equestria Branch by PC-DOS */
+
+/* Top-Bar fix */
+.top-bar {
+             position: static;
+             z-index: 50;
+             right: auto;
+             margin: 0;
+}
+
+/* Edit-Page window fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area div form#edit-page-form table.form tbody tr td{
+             word-break: keep-all;
+}
+
+#edit-page-title{
+             max-width: 75%;
+}
+
+/* Page-Tags fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area form table.form tbody tr td{
+             word-break: keep-all;
+}
+
+#page-tags-input{
+             max-width: 80%;
+}
+
+/* Side-Bar fix */
+#side-bar div.menu-item a[href*="scp-series"] {
+    text-align: left;
+}
+
+#side-bar div.menu-item a[href*="scp-series"]::before {
+    width: 125%;
+}
+
+#side-bar div.menu-item .sub-text {
+    display: none;
+}
+
+#side-bar .separate{
+     display: none;
+}
+
+/* Multilanguage Module fix */
+html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#header div#top-bar div.top-bar div.list-pages-box{
+     display: none;
+}

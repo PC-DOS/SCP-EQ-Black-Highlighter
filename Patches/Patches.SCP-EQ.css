@@ -27,6 +27,10 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
 }
 
 /* Side-Bar fix */
+#side-bar .side-block, #side-bar div[style*="center"], #side-bar div[style*="center"] > div {
+    display: block;
+}
+
 #side-bar div.menu-item a[href*="scp-series"] {
     /* text-align: left; */
     justify-content: flex-start;

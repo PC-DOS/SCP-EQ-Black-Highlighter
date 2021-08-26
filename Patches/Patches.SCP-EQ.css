@@ -63,6 +63,18 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
     display: none;
 }
 
+#side-bar .shadow{
+    border: 0px;
+    box-shadow: none;
+    background: transparent;
+}
+
+#side-bar .shadow:hover{
+    border: 0px;
+    box-shadow: none;
+    background: transparent;
+}
+
 /* Multilanguage Module fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#header div#top-bar div.top-bar div.list-pages-box{
     display: none;

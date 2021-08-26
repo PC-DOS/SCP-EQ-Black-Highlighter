@@ -1,6 +1,6 @@
 /* Patches for SCP Foundation Equestria Branch by PC-DOS */
 
-/* Top-Bar fix */
+/* Top-Bar Fix */
 .top-bar {
     position: static;
     z-index: 50;
@@ -8,12 +8,12 @@
     margin: 0;
 }
 
-/* Page-Contents fix */
+/* Page-Contents Fix */
 #page-content, #page-content > * {
     max-width: 100%;
 }
 
-/* Edit-Page window fix */
+/* Edit-Page window Fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area div form#edit-page-form table.form tbody tr td{
     word-break: keep-all;
 }
@@ -22,7 +22,7 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
     max-width: 75%;
 }
 
-/* Page-Tags fix */
+/* Page-Tags Fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area form table.form tbody tr td{
     word-break: keep-all;
 }
@@ -31,7 +31,7 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
     max-width: 80%;
 }
 
-/* Side-Bar fix */
+/* Side-Bar Fix */
 #side-bar .side-block, #side-bar div[style*="center"], #side-bar div[style*="center"] > div {
     display: block;
 }
@@ -75,7 +75,12 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
     background: transparent;
 }
 
-/* Multilanguage Module fix */
+/* Multilanguage Module Fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#header div#top-bar div.top-bar div.list-pages-box{
     display: none;
+}
+
+/* NewPage Module Fix */
+input[type="text"], textarea {
+    max-width: 100%;
 }

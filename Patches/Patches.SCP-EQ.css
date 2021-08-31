@@ -22,6 +22,10 @@ html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap 
     max-width: 75%;
 }
 
+form#edit-page-form, form#edit-page-form :not(#edit-page-textarea) {
+    max-width: 100%;
+}
+
 /* Page-Tags Fix */
 html body#html-body div#skrollr-body div#container-wrap-wrap div#container-wrap div#container div#content-wrap div#main-content div#action-area form table.form tbody tr td{
     word-break: keep-all;
